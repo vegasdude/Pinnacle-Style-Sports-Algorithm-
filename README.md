@@ -169,7 +169,7 @@ git clone https://github.com/vegasdude/pinnacle-style-sports-algorithm.git
 
 Enter the directory:
 
-cd pinnacle-sports-algorithm
+cd pinnacle-style-sports-algorithm
 
 Create a virtual environment:
 
