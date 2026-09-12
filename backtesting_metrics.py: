@@ -1,0 +1,30 @@
+import numpy as np
+
+
+def accuracy(y_true, y_pred):
+    return np.mean(
+        np.array(y_true) == np.array(y_pred)
+    )
+
+
+def brier_score(y_true, probabilities):
+    y_true = np.array(y_true)
+    probabilities = np.array(probabilities)
+
+    return np.mean(
+        (probabilities - y_true) ** 2
+    )
+
+
+def log_loss(y_true, probabilities):
+    y_true = np.array(y_true)
+    probabilities = np.clip(
+        np.array(probabilities),
+        0.0001,
+        0.9999
+    )
+
+    return -np.mean(
+        y_true * np.log(probabilities)
+        + (1 - y_true) * np.log(1 - probabilities)
+  )
