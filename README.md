@@ -165,7 +165,7 @@ __pycache__/
 
 Clone the repository:
 
-git clone https://github.com/vegasdude/pinnacle-sports-algorithm.git
+git clone https://github.com/vegasdude/pinnacle-style-sports-algorithm.git
 
 Enter the directory:
 
