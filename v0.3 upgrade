@@ -1,0 +1,39 @@
+pinnacle-sports-algorithm/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── schemas/
+│
+├── features/
+│   ├── team_form.py
+│   ├── home_away.py
+│   ├── scoring.py
+│   └── feature_pipeline.py
+│
+├── models/
+│   ├── elo.py
+│   ├── ml_model.py
+│   ├── ensemble.py
+│   └── calibration.py
+│
+├── odds/
+│   ├── implied_probability.py
+│   ├── vig.py
+│   ├── line_movement.py
+│   └── clv.py
+│
+├── predictions/
+│   ├── predictor.py
+│   ├── probability.py
+│   └── value.py
+│
+├── backtesting/
+│   ├── simulator.py
+│   ├── metrics.py
+│   └── walk_forward.py
+│
+├── dashboard/
+│   └── app.py
+│
+└── main.py
