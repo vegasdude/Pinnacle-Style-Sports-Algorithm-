@@ -1,0 +1,29 @@
+from models.ensemble import EnsembleModel
+
+
+class PredictionEngine:
+
+    def __init__(self):
+        self.model = EnsembleModel()
+
+    def predict(self, features):
+        probability = self.model.predict(features)
+
+        confidence = self._confidence(probability)
+
+        return {
+            "probability": probability,
+            "confidence": confidence
+        }
+
+    @staticmethod
+    def _confidence(probability):
+        distance = abs(probability - 0.5)
+
+        if distance >= 0.20:
+            return "HIGH"
+
+        if distance >= 0.10:
+            return "MEDIUM"
+
+        return "LOW"
