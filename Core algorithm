@@ -1,0 +1,41 @@
+SPORTS DATA
+                      │
+                      ▼
+              ┌───────────────┐
+              │ Team/player   │
+              │ statistics    │
+              └───────┬───────┘
+                      │
+                      ▼
+              ┌───────────────┐
+              │   ELO / ML    │
+              │    Models     │
+              └───────┬───────┘
+                      │
+                      ▼
+              MODEL PROBABILITY
+                      │
+                      │
+ODDS ────────────────►│
+                      ▼
+              ┌───────────────┐
+              │ Remove vig /  │
+              │ normalize     │
+              └───────┬───────┘
+                      │
+                      ▼
+              MARKET PROBABILITY
+                      │
+             ┌────────┴────────┐
+             ▼                 ▼
+       MODEL > MARKET     MODEL < MARKET
+             │                 │
+             └────────┬────────┘
+                      ▼
+                 EDGE / VALUE
+                      │
+                      ▼
+                BACKTESTING
+                      │
+                      ▼
+                 DASHBOARD
