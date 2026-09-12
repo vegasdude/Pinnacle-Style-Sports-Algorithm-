@@ -1,0 +1,29 @@
+SPORTS DATA
+                   │
+                   ▼
+            DATA INGESTION
+                   │
+                   ▼
+           FEATURE PIPELINE
+                   │
+          ┌────────┴────────┐
+          ▼                 ▼
+        ELO MODEL          ML MODEL
+          │                 │
+          └────────┬────────┘
+                   ▼
+               ENSEMBLE
+                   │
+                   ▼
+          CALIBRATED PROBABILITY
+                   │
+                   ▼
+             MARKET ODDS
+                   │
+                   ▼
+             EDGE + CLV
+                   │
+                   ▼
+          ┌────────────────┐
+          │   DASHBOARD    │
+          └────────────────┘
