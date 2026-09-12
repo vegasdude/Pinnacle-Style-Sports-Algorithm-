@@ -1,0 +1,28 @@
+HISTORICAL GAMES
+                    │
+                    ▼
+             FEATURE ENGINE
+                    │
+          ┌─────────┴─────────┐
+          ▼                   ▼
+       ELO MODEL           ML MODEL
+          │                   │
+          └─────────┬─────────┘
+                    ▼
+                ENSEMBLE
+                    │
+                    ▼
+            CALIBRATED MODEL
+              PROBABILITY
+                    │
+                    ▼
+             MARKET PROBABILITY
+                    │
+                    ▼
+              EDGE + CLV
+                    │
+                    ▼
+            WALK-FORWARD TEST
+                    │
+                    ▼
+             PERFORMANCE DATA
