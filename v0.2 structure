@@ -1,0 +1,33 @@
+pinnacle-sports-algorithm/
+├── README.md
+├── requirements.txt
+├── main.py
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── models/
+│   ├── __init__.py
+│   ├── elo.py
+│   ├── ml_model.py
+│   └── ensemble.py
+│
+├── odds/
+│   ├── __init__.py
+│   ├── implied_probability.py
+│   └── vig.py
+│
+├── predictions/
+│   ├── __init__.py
+│   ├── predictor.py
+│   └── value.py
+│
+├── backtesting/
+│   ├── __init__.py
+│   ├── simulator.py
+│   └── metrics.py
+│
+└── tests/
+    ├── test_elo.py
+    └── test_odds.py
