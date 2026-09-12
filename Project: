@@ -1,0 +1,57 @@
+pinnacle-sports-algorithm/
+│
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── historical/
+│
+├── config/
+│   └── settings.yaml
+│
+├── sports/
+│   ├── nfl/
+│   ├── nba/
+│   ├── mlb/
+│   ├── nhl/
+│   └── soccer/
+│
+├── models/
+│   ├── elo.py
+│   ├── poisson.py
+│   ├── logistic.py
+│   ├── ensemble.py
+│   └── calibration.py
+│
+├── odds/
+│   ├── implied_probability.py
+│   ├── vig_removal.py
+│   ├── line_movement.py
+│   └── closing_line.py
+│
+├── predictions/
+│   ├── game_predictor.py
+│   ├── probability.py
+│   └── value.py
+│
+├── backtesting/
+│   ├── simulator.py
+│   ├── metrics.py
+│   └── reports.py
+│
+├── database/
+│   └── schema.sql
+│
+├── dashboard/
+│   └── app.py
+│
+├── tests/
+│   ├── test_odds.py
+│   ├── test_models.py
+│   └── test_predictions.py
+│
+└── main.py
