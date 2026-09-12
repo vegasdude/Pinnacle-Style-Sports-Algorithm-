@@ -1,0 +1,19 @@
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+
+
+class SportsMLModel:
+
+    def __init__(self):
+        self.model = RandomForestClassifier(
+            n_estimators=200,
+            random_state=42
+        )
+
+    def train(self, X, y):
+        self.model.fit(X, y)
+
+    def predict_probability(self, X):
+        probabilities = self.model.predict_proba(X)
+
+        return probabilities[:, 1]
