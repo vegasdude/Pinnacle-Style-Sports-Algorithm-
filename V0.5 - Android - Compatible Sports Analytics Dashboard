@@ -1,0 +1,37 @@
+Pinnacle-Style-Sports-Algorithm
+│
+├── 📊 Sports Dashboard
+│   ├── NFL
+│   ├── NBA
+│   ├── MLB
+│   ├── NHL
+│   └── Soccer
+│
+├── 🤖 Prediction Engine
+│   ├── ELO ratings
+│   ├── Machine learning
+│   ├── Team statistics
+│   └── Ensemble predictions
+│
+├── 📈 Odds Analytics
+│   ├── Implied probability
+│   ├── Vig removal
+│   ├── Market comparison
+│   └── Closing-line tracking
+│
+├── 🧪 Backtesting
+│   ├── Historical games
+│   ├── Walk-forward testing
+│   ├── Accuracy
+│   ├── Brier score
+│   └── ROI simulation
+│
+├── 📱 Android Support
+│   ├── Termux setup
+│   ├── Mobile-friendly dashboard
+│   └── Cloud deployment option
+│
+└── 📚 Documentation
+    ├── README.md
+    ├── INSTALL-ANDROID.md
+    └── API-SETUP.md
